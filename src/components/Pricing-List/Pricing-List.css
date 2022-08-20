@@ -1,0 +1,18 @@
+.table {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(50px, 1fr));
+    grid-gap: 1rem;
+}
+
+.table-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color, #c2a195);
+}
+
+.title {
+	color: #99634e;
+	font-family: cormorant-garamond;
+    font-weight: bold;
+}
