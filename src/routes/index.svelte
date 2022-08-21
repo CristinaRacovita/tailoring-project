@@ -13,7 +13,9 @@
 
 		<div class="container-with-image">
 			<Hero />
-			<img class="image" src="/images/tailor2.jpg" alt={'logo image'} />
+			<div class="hero-image">
+				<img class="image" src="/images/tailor2.jpg" alt={'logo image'} />
+			</div>
 		</div>
 
 		<PricingList />

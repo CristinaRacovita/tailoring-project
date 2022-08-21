@@ -8,3 +8,25 @@
     width: 800px;
     border-radius: 20px;
 }
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 480px) {
+    .container-with-image {
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .hero-image {
+        margin-top: 50px;
+    }
+
+    .image {
+        width: 90%;
+    }
+}

@@ -1,9 +1,5 @@
 .pricing-list-container {
 	margin: 100px 0px 100px 0px;
-    /* background-image: url("/images/needle.png");
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-position: center;  */
 }
 
 .table {
@@ -40,4 +36,20 @@
 	background-color: var(--color, #c2a195);
 	color: white;
 	font-size: 20px;
+}
+
+@media (max-width: 480px) {
+	.title {
+		font-size: 100px;
+	}
+
+	.table {
+		grid-template-columns: repeat(2, 550px);
+	}
+
+	.table-item {
+		width: 550px;
+		height: 150px;
+		font-size: 60px;
+	}
 }

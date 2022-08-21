@@ -16,3 +16,17 @@
     align-self: center;
     cursor: pointer;
 }
+
+@media (max-width: 480px) {
+	.title {
+		font-size: 100px;
+	}
+
+    .map-container {
+        margin-top: 50px;
+    }
+
+    .map {
+        width: 80rem;
+    }
+}

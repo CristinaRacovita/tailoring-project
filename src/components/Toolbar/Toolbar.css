@@ -23,3 +23,19 @@
 	margin-right: 10px;
 	cursor: pointer;
 }
+
+@media (max-width: 480px) {
+    .toolbar {
+        height: 200px;
+    }
+
+    .app-title {
+		font-size: 80px;
+	}
+	
+	.logo-image {
+		width: 175px;
+		margin-right: 10px;
+		cursor: pointer;
+	}
+}

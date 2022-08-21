@@ -27,3 +27,19 @@
 	text-align: end;
 	width: 95%;
 }
+
+@media (max-width: 480px) {
+	.text {
+		font-size: 40px;
+		width: 50%;
+	}
+
+    .rights {
+		font-size: 20px;
+		width: 95%;
+    }
+
+	.logo-image {
+		width: 200px;
+	}
+}
