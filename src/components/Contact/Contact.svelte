@@ -2,7 +2,7 @@
 	<div class="contact">
 		<h1 class="title">Date Contact</h1>
 
-		<button class="call-button"> Sună la 0752677383 </button>
+		<div class="text"> <b>Telefon:</b> 0752677383 </div>
 		<div class="text">
 			<b>Locație:</b> Strada Elena Doamna nr. 20 <br><i>(în spatele stadionului Portul Roșu)</i>
 		</div>
