@@ -1,11 +1,10 @@
 <template>
 	<div class="contact">
-		<img class="logo-image" src="/images/croitorie-logo.png" alt={'logo image'} />
-		<div class="text description">Croitorie în Galați</div>
+		<h1 class="title">Date Contact</h1>
 
-		<button class="call-button"> Sună la 0755932106 </button>
+		<button class="call-button"> Sună la 0752677383 </button>
 		<div class="text">
-			<b>Locație:</b> Strada Elena Doamna nr. 20 <i>(în spatele stadionului Portul Roșu)</i>
+			<b>Locație:</b> Strada Elena Doamna nr. 20 <br><i>(în spatele stadionului Portul Roșu)</i>
 		</div>
 		<div class="text"><b>Program:</b> L-V: 9:00-17:00</div>
 		<div class="media">

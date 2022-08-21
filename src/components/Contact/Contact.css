@@ -1,6 +1,5 @@
 .contact {
 	display: flex;
-	justify-content: center;
 	flex-direction: column;
 	align-items: center;
 }
@@ -61,4 +60,9 @@
 
 .media {
 	display: inline-flex;
+}
+
+.title {
+	color: #99634e;
+	font-family: cormorant-garamond;
 }

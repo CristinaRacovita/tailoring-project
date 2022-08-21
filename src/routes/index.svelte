@@ -4,18 +4,27 @@
 	import Contact from '../components/Contact/Contact.svelte';
 	import Footer from '../components/Footer/Footer.svelte';
 	import PricingList from '../components/Pricing-List/Pricing-List.svelte';
+	import Map from '../components/Map/Map.svelte';
 </script>
 
 <template>
-	<Toolbar />
-	<div class="hero-contact-page">
-		<Contact />
-		<Hero />
+	<div>
+		<Toolbar />
+
+		<div class="container-with-image">
+			<Hero />
+			<img class="image" src="/images/tailor2.jpg" alt={'logo image'} />
+		</div>
+
+		<PricingList />
+
+		<div class="container-with-image">
+			<Contact />
+			<Map />
+		</div>
+
+		<Footer />
 	</div>
-
-	<PricingList />
-
-	<Footer />
 </template>
 
 <style src="./index.css"></style>

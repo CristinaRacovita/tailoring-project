@@ -1,18 +1,43 @@
+.pricing-list-container {
+	margin: 100px 0px 100px 0px;
+    /* background-image: url("/images/needle.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;  */
+}
+
 .table {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(50px, 1fr));
-    grid-gap: 1rem;
+	display: grid;
+	grid-template-columns: repeat(2, 200px);
+	grid-gap: 5px;
+	justify-content: center;
+	margin-top: 50px;
 }
 
 .table-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--color, #c2a195);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--color, #ebe0dc);
+	width: 200px;
+	height: 75px;
+	border-radius: 3px;
+	color: #99634e;
+	font-size: 18px;
+	font-weight: 800;
+	font-family: cormorant-garamond;
 }
 
 .title {
 	color: #99634e;
+	font-weight: bold;
 	font-family: cormorant-garamond;
-    font-weight: bold;
+	text-align: center;
+	margin-top: 75px;
+}
+
+.column-name {
+	background-color: var(--color, #c2a195);
+	color: white;
+	font-size: 20px;
 }

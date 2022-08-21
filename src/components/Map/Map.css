@@ -1,0 +1,18 @@
+.title {
+    text-align: center;
+	color: #99634e;
+	font-family: cormorant-garamond;
+}
+
+.map-container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.map {
+    width: 100%;
+    display: flex;
+    align-self: center;
+    cursor: pointer;
+}

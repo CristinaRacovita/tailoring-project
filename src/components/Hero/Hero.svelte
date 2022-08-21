@@ -1,5 +1,9 @@
 <template>
+
 	<div class="hero">
+		<img class="logo-image" src="/images/croitorie-logo.png" alt={'logo image'} />
+		<div class="text description">Croitorie în Galați</div>
+
 		<h1 class="title">Cu ce putem ajuta?</h1>
 		<div class="text">
 			<p>
