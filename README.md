@@ -1,4 +1,7 @@
-# create-svelte
+# Landing Page Project
+
+- This app is deployed on https://croitorianicoleta.com/
+- Created as a landing page for a small local business.
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
